@@ -23,32 +23,32 @@ ul {
   list-style: none;
 }
 
-.secondary-header {
+.social-header {
   background-color: black;
   padding: 10px 0;
   display: none;
 }
 
-.secondary-header .secondary-nav {
+.social-header .social-nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
-  margin-right: 10%;
+  width: 30%;
 }
 
-.top-nav-icon {
+.top-social-icon {
   margin-right: 50px;
 }
 
-.top-nav-icon a {
+.top-social-icon a {
   color: #fff;
 }
 
-.top-nav-icon a:active {
+.top-social-icon a:active {
   color: #ec5242;
 }
 
-.top-nav-icon a:hover {
+.top-social-icon a:hover {
   color: #ec5242;
 }
 
@@ -131,7 +131,7 @@ ul {
   background-color: #272a31;
   opacity: 1;
   transition: 0.5s;
-  z-index: 2;
+  z-index: 10;
 }
 
 .main-nav {
@@ -168,22 +168,32 @@ ul {
 .about-head-line {
   display: flex;
   flex-direction: column;
-  background-image: url("../images/mobile-bg.png");
+  background-image: url("../images/amobile-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.about-head-line .title-1 {
+.about-head-line .motto {
   color: #ec5242;
   font-family: "COCOGOOSE", sans-serif;
   font-size: 50px;
   text-align: center;
   font-weight: 700;
-  margin-top: 20%;
   margin-bottom: 5%;
+  line-height: 1;
 }
 
-.about-head-line .text-1 {
+.about-head-line .title-secondary {
+  margin-top: 8rem;
+  font-family: 'lato', sans-serif;
+  color: #ec5242;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.about-head-line .text-description {
   background-color: #fff;
   color: #272a31;
   font-family: "lato", sans-serif;
@@ -195,7 +205,7 @@ ul {
   margin: 0 10px;
 }
 
-.about-head-line .text-2 {
+.about-head-line .contact {
   color: #272a31;
   font-family: "lato", sans-serif;
   text-align: center;
@@ -210,9 +220,10 @@ ul {
   font-size: 15px;
   padding-bottom: 5%;
   text-decoration: underline;
+  font-weight: 700;
 }
 
-.conatiner {
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -220,12 +231,7 @@ ul {
   margin: 0 20px;
 }
 
-.our-history {
-  border-bottom: 1px solid #c9ccd3;
-  padding-bottom: 50px;
-}
-
-.our-history .title-3 {
+.container .title-3 {
   font-size: 20px;
   font-family: 'lato', sans-serif;
   color: #272a31;
@@ -233,7 +239,7 @@ ul {
   margin: 20px;
 }
 
-.our-history .title-3::after {
+.container .title-3::after {
   content: "";
   display: block;
   border-bottom: 1px solid #ec5242;
@@ -242,7 +248,7 @@ ul {
   margin: 5px auto;
 }
 
-.our-history .text-2 {
+.container .text-2 {
   font-size: 15px;
   font-family: 'lato', sans-serif;
   color: #272a31;
@@ -251,26 +257,25 @@ ul {
   line-height: 30px;
 }
 
-.our-history .history-logo {
-  border: 1px solid #f2f3f5;
+.container .idea-logo {
   margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.our-history .history-logo img {
+.container .idea-logo img {
   width: 200px;
   height: 200px;
 }
 
-.our-history .history-logo .text-1 {
+.container .idea-logo .text-description {
   color: #272a31;
   font-family: 'lato', sans-serif;
   font-size: 18px;
 }
 
-.history-logo .text-3 {
+.idea-logo .text-3 {
   color: #272a31;
   font-family: 'lato', sans-serif;
   font-size: 15px;
@@ -278,7 +283,7 @@ ul {
   font-style: italic;
 }
 
-.our-experiance {
+.our-experience {
   display: flex;
   flex-wrap: wrap;
   justify-items: center;
@@ -287,14 +292,16 @@ ul {
   padding: 30px 0;
 }
 
-.our-experiance .title-3 {
+.our-experience .title-3,
+.container .title-3 {
   color: #272a31;
   font-size: 20px;
   font-family: 'lato', sans-serif;
   text-align: center;
 }
 
-.our-experiance .title-3::after {
+.container .title-3::after,
+.our-experience .title-3::after {
   content: "";
   display: block;
   border-bottom: 1px solid #ec5242;
@@ -302,14 +309,15 @@ ul {
   margin: 5px auto;
 }
 
-.our-experiance .text-3 {
+.container .text-3,
+.our-experience .text-3 {
   color: #272a31;
   font-size: 15px;
   font-family: 'lato', sans-serif;
   margin: 5px;
 }
 
-.experiances {
+.experiences {
   display: flex;
   flex-direction: column;
 }
@@ -320,7 +328,7 @@ ul {
   width: 100%;
 }
 
-.experiance-text {
+.experience-text {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -333,18 +341,18 @@ ul {
   background-color: #ff4935;
 }
 
-.success .experiance-img {
+.success .experience-img {
   width: 100%;
   display: block;
   height: 100%;
   background-color: #ec5242;
 }
 
-.success .experiance-img:hover {
+.success .experience-img:hover {
   background-color: #d63f2e;
 }
 
-.experiance-text .expriance-title {
+.experience-text .exprience-title {
   color: white;
   font-size: 20px;
   position: absolute;
@@ -352,7 +360,7 @@ ul {
   left: 10%;
 }
 
-.experiance-text .text-3 {
+.experience-text .text-3 {
   color: white;
   font-size: 20px;
   position: absolute;
@@ -361,8 +369,47 @@ ul {
   margin-top: 10px;
 }
 
-.success .experiance-text {
+.success .experience-text {
   opacity: 0.9;
+}
+
+.partner-container {
+  background-color: rgb(39, 41, 48);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+
+.partner-container .title-secondary {
+  color: #fff;
+}
+
+.partner-container .title-secondary::after {
+  content: "";
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #ec5242;
+  width: 50px;
+}
+
+.partners {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.partners div {
+  padding: 10px;
+}
+
+.partner-img {
+  width: 100px;
+  height: 100px;
 }
 
 .footer {
@@ -394,8 +441,9 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
-  .secondary-header {
-    display: block;
+  .social-header {
+    display: flex;
+    justify-content: flex-end;
   }
 
   .main-header {
@@ -403,7 +451,6 @@ ul {
     border-bottom: 1px solid #eee;
     background: #fff;
     display: flex;
-    position: fixed;
     align-items: center;
     justify-content: space-around;
     width: 100%;
@@ -455,11 +502,11 @@ ul {
     padding: 0 20%;
   }
 
-  .our-history {
+  .container {
     padding: 0 20%;
   }
 
-  .experiances {
+  .experiences {
     flex-direction: row;
     justify-content: center;
     margin-top: 20px;
@@ -471,17 +518,17 @@ ul {
     width: 100%;
   }
 
-  .our-experiance .text-3 {
+  .our-experience .text-3 {
     text-align: center;
     margin: 20px 0;
   }
 
-  .experiance-text .expriance-title {
+  .experience-text .exprience-title {
     top: 30%;
     left: 20%;
   }
 
-  .experiance-text .text-3 {
+  .experience-text .text-3 {
     top: 45%;
     left: 10%;
   }
