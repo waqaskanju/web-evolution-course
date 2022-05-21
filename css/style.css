@@ -108,7 +108,7 @@ img {
   visibility: visible;
 }
 
-.open{
+.open {
   position: absolute;
   right: 10px;
   top: 10px;
@@ -201,6 +201,7 @@ img {
   color: transparent;
   background-image: linear-gradient(to right, #ff1f0fba, #e3321e38), url("../images/teamwork.jpg");
   -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .head-line .title-secondary {
