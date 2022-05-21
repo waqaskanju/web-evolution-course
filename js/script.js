@@ -42,8 +42,6 @@ const menu = document.getElementById('hamburger');
 const header = document.getElementById('main-header');
 const mainNav = document.getElementById('main-nav');
 const teamWrapper = document.getElementById('team-container');
-const sticky = header.offsetTop;
-
 
 function toggleMenu() {
   header.classList.toggle('menu-overlay');
