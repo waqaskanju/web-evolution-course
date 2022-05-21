@@ -49,8 +49,6 @@ function toggleMenu() {
   mainNav.classList.toggle('hide-menu');
 }
 
-const screenSize = document.body.clientWidth;
-
 const createTeamMembers = () => {
   let developers = '';
   teamMembers.forEach((dev) => {
