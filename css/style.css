@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-primary: #ec5242;
+  --clr-secondary: #272a31;
+  --clr-grey: #d3d3d5;
+  --clr-background: #535353;
+
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: lato, sans-serif;
+}
+
+h1 {
+  font-family: 'cocogoose', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.container {
+  padding: 0 2rem;
+  background-image: url(../images/main_background.png);
+}
+
+.hello {
+  font-size: 30px;
+  color: rgb(255, 51, 0);
+}
+
+.clip {
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, rgba(255, 51, 0, 0.811), rgba(255, 111, 0, 0.92)), url("../images/teamwork.jpg");
+  font-size: 30px;
+  width: 40ch;
+}
+
+.p {
+  padding: 1rem;
+}
+
+.pt {
+  padding-top: 1rem;
+}
+
+.p-bl-1 {
+  padding: 1rem 0;
+}
+
+.p-bl-2 {
+  padding: 6rem 0;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+.fluid {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.ml {
+  margin-left: 3%;
+}
+
+.mt-1 {
+  margin-top: 2rem;
+}
+
+.mt-2 {
+  margin-top: 4rem;
+}
+
+.mt-4 {
+  margin-top: 8rem;
+}
+
+.font-1 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.no-show {
+  display: none;
+}
+
+.bars {
+  width: 6rem;
+  height: 0.8rem;
+  background-color: var(--clr-background);
+  position: relative;
+  box-shadow: 0 1.4rem 0 0 var(--clr-background), 0 -1.4rem 0 0 var(--clr-background);
+  cursor: pointer;
+}
+
+.on-top {
+  position: relative;
+  z-index: 1;
+}
+
+.motto {
+  border: 5px solid white;
+  width: 60%;
+  padding:13px;
+}
+/*# sourceMappingURL=style.css.map */
+.title {
+  width: 60%;
+}
