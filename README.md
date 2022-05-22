@@ -81,6 +81,11 @@ Give a ⭐️ if you like this project!
 
 - We are taking files from Microverse. Thanks for there work.
 
+## Credits
+
+This project idea is taken from Cindy Shin is [Global Summmit  ](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
+
+
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.

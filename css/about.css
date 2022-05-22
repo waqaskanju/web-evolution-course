@@ -302,10 +302,10 @@ ul {
 
 .container .title-3::after,
 .our-experience .title-3::after {
-  content: "";
+  /* content: "";
   display: block;
   border-bottom: 1px solid #ec5242;
-  width: 50px;
+  width: 50px; */
   margin: 5px auto;
 }
 
@@ -325,23 +325,30 @@ ul {
 .success {
   position: relative;
   margin: 5px;
-  width: 100%;
+  width: 380px;
+  height: 210px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.success:nth-child(1) {
+  background-image: linear-gradient(to right, #ec5342ba, #ec5342a3), url(https://picsum.photos/400/300?random=1);
+}
+
+.success:nth-child(2) {
+  background-image: linear-gradient(to right, #ec5342ba, #ec5342a3), url(https://picsum.photos/400/300?random=2);
 }
 
 .experience-text {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
   transition: 0.5s ease;
-  background-color: #ff4935;
 }
 
-.success .experience-img {
+/* .success .experience-img {
   width: 100%;
   display: block;
   height: 100%;
@@ -350,22 +357,18 @@ ul {
 
 .success .experience-img:hover {
   background-color: #d63f2e;
-}
+} */
 
 .experience-text .exprience-title {
   color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 30%;
-  left: 10%;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .experience-text .text-3 {
   color: white;
   font-size: 20px;
-  position: absolute;
-  top: 45%;
-  left: 10%;
   margin-top: 10px;
 }
 
@@ -414,7 +417,7 @@ ul {
 
 .footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background-color: white;
   padding: 20px;
   justify-content: center;
@@ -438,6 +441,10 @@ ul {
   font-size: 15px;
   color: #272a31;
   padding: 20px;
+}
+
+.show-null {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -514,7 +521,7 @@ ul {
 
   .success {
     margin: 0 10px;
-    height: 300px;
+    min-height: 210px;
     width: 100%;
   }
 
@@ -523,14 +530,17 @@ ul {
     margin: 20px 0;
   }
 
-  .experience-text .exprience-title {
+  /* .experience-text .exprience-title {
     top: 30%;
     left: 20%;
-  }
+  } */
 
-  .experience-text .text-3 {
+  /* .experience-text .text-3 {
     top: 45%;
     left: 10%;
+  } */
+  .partner-container {
+    display: none;
   }
 
   .footer {
