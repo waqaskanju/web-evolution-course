@@ -1,6 +1,6 @@
 # Course Advertisement Website
 
-This repository contains a webiste, which can be used to showcase your couurse for sale.
+This repository contains a webiste, which can be used to showcase your courses for sale.
 
 ## Built With
 
