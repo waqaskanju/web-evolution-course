@@ -15,6 +15,15 @@ Course Advertisement Website
 
 (https://waqaskanju.github.io/web-evolution-course/)
 
+# Some Snaps
+
+![image](https://user-images.githubusercontent.com/13853450/189743522-58dc12df-7ee0-4ef4-9cb8-9f63cbde5aed.png)
+
+![image](https://user-images.githubusercontent.com/13853450/189743750-1b7b9291-e09f-4287-8dfa-bd0eccfbcffe.png)
+
+![image](https://user-images.githubusercontent.com/13853450/189743919-159a59c6-b212-4cb2-8786-06c59b5557c5.png)
+
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
