@@ -1,6 +1,6 @@
-# Portfolio Repo
+# Course Advertisement Website
 
-This Repo is for creating a website for webdevelopment course
+This repository contains a webiste, which can be used to showcase your couurse for sale.
 
 ## Built With
 
@@ -10,8 +10,7 @@ This Repo is for creating a website for webdevelopment course
 
 # Project Name
 
-web-evolution-course
-
+Course Advertisement Website
 # Live Demo
 
 (https://waqaskanju.github.io/web-evolution-course/)
